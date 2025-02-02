@@ -11,8 +11,7 @@
 - Member 3: [M Nisthula] - [Ahalia School of Engineering and Technology]
 
 ### Hosted Project Link
-file:///C:/Users/user/Desktop/tink-her-hack-3-temp/final%20front%20page1.html
-
+git hub: (https://github.com/Nisthula268/tink-her-hack-3-temp)
 ### Project Description
 This project aims to provide part time job opportunities for students and working professionals who seek additional income and skill development without compromising their primary commitments. Our initiative connects job seekers with flexible work options across various industries, ensuring a balance between work, studies and personal life.
 
@@ -25,7 +24,7 @@ To address this problem, we propose developing a website that acts as a bridge b
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [html,css(Front page) , javascriprt fpr backend]
+- [html,css(Front page)]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -36,7 +35,7 @@ For Hardware:
 - [List tools required]
 
 ### Implementation
-For Software:
+For Software: vs code, github
 # Installation
 [commands]
 
