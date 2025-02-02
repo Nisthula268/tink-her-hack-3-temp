@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job | Part-Time Job Opportunities</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color:#6d67e4;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Container for Form */
+        .form-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(4, 4, 0, 0.1);
+        }
+
+        .form-container h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .form-container label {
+            font-size: 1.1em;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-container input, .form-container textarea, .form-container select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .form-container button {
+            background-color: #6d67e4;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background-color: #64c3f1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Post a Job Opportunity</h1>
+        <p>Find the Right Talent for Your Part-Time Roles</p>
+    </header>
+
+    <!-- Job Posting Form -->
+    <div class="form-container">
+        <h2>Post a New Job</h2>
+        <form>
+            <!-- Job Title -->
+            <label for="jobTitle">Job Title</label>
+            <input type="text" id="jobTitle" name="jobTitle" placeholder="Enter the job title" required>
+
+            <!-- Company Name -->
+            <label for="companyName">Company Name</label>
+            <input type="text" id="companyName" name="companyName" placeholder="Enter your company name" required>
+
+            <!-- Job Description -->
+            <label for="jobDescription">Job Description</label>
+            <textarea id="jobDescription" name="jobDescription" rows="5" placeholder="Describe the job responsibilities" required></textarea>
+
+            <!-- Job Requirements -->
+            <label for="jobRequirements">Job Requirements</label>
+            <textarea id="jobRequirements" name="jobRequirements" rows="5" placeholder="List required skills and qualifications" required></textarea>
+
+            <!-- Salary -->
+            <label for="salary">Salary</label>
+            <input type="text" id="salary" name="salary" placeholder="Enter salary or wage information" required>
+
+            <!-- Working Hours -->
+            <label for="workingHours">Working Hours</label>
+            <input type="text" id="workingHours" name="workingHours" placeholder="e.g., Monday to Friday, 9 AM to 5 PM" required>
+
+            <!-- Submit Button -->
+            <button type="submit">Post Job</button>
+        </form>
+    </div>
+    <div>
+    <a href="final front page1.html" class="view-button"  >
+        <button>Back</button>
+       
+        </a>
+</div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Part-Time Job Hub | All rights reserved</p>
+    </footer>
+
+</body>
+</html>

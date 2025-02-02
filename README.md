@@ -1,31 +1,31 @@
-# [Project Name] 🎯
+# [Part time Job opportunities] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [3stars]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Afreen Yusaf] - [Ahalia School of Engineering and Technology]
+- Member 2: [Pavithra M] - [Ahalia School of Engineering and Technology]
+- Member 3: [M Nisthula] - [Ahalia School of Engineering and Technology]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+file:///C:/Users/user/Desktop/tink-her-hack-3-temp/final%20front%20page1.html
 
 ### Project Description
-[2-3 lines about what your project does]
+This project aims to provide part time job opportunities for students and working professionals who seek additional income and skill development without compromising their primary commitments. Our initiative connects job seekers with flexible work options across various industries, ensuring a balance between work, studies and personal life.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+There is a gap between companies needing reliable part-time workers and students or employees seeking flexible job opportunities. Many struggle to find work that fits their schedules, while businesses face workforce shortages. This project connects job seekers with companies, ensuring efficient workforce management and accessible employment opportunities.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+To address this problem, we propose developing a website that acts as a bridge between students, employees, and companies. This platform will provide a centralized job portal where businesses can post part-time job openings, and job seekers can easily find opportunities that match their schedules and skills.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [html,css(Front page) , javascriprt fpr backend]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]

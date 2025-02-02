@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for a Part-Time Job | Student Opportunities</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color:#6d67e4;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Container for Form */
+        .form-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(4, 4, 0, 0.1);
+        }
+
+        .form-container h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .form-container label {
+            font-size: 1.1em;
+            color: #333;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-container input, .form-container textarea, .form-container select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .form-container button {
+            background-color: #6d67e4;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background-color: #64c3f1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Apply for a Part-Time Job</h1>
+        <p>Submit Your Application and Start Your Career Journey</p>
+    </header>
+
+    <!-- Job Application Form -->
+    <div class="form-container">
+        <h2>Student Job Application</h2>
+        <form>
+            <!-- Student Name -->
+            <label for="studentName">Full Name</label>
+            <input type="text" id="studentName" name="studentName" placeholder="Enter your full name" required>
+
+            <!-- Email Address -->
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <!-- Phone Number -->
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <!-- Resume Upload -->
+            <label for="resume">Upload Resume</label>
+            <input type="file" id="resume" name="resume" required>
+
+            <!-- ID Proof Upload -->
+            <label for="idProof">Upload ID Proof</label>
+            <input type="file" id="idProof" name="idProof" required>
+
+            <!-- Availability -->
+            <label for="availability">Availability</label>
+            <input type="text" id="availability" name="availability" placeholder="e.g., Monday to Friday, 9 AM to 5 PM" required>
+
+            <!-- Skills & Experience -->
+            <label for="skills">Skills & Experience</label>
+            <textarea id="skills" name="skills" rows="5" placeholder="List your relevant skills and experiences" required></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Student Job Portal | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
